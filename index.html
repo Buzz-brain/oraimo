@@ -4,162 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oraimo Discount Page</title>
-    <style>
-        body {
-            font-family: Lato, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-        }
-
-        header {
-            display: flex;
-            align-items: center;
-            padding: 20px;
-            background-color: #ffffff;
-            border-bottom: 1px solid #ddd;
-        }
-
-        header img {
-            height: 40px;
-            margin-right: 10px;
-        }
-
-        nav {
-            margin-left: auto;
-        }
-
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #333;
-            font-weight: bold;
-        }
-
-        main {
-            padding: 20px;
-            max-width: 800px;
-            margin: auto;
-        }
-
-        h1 {
-            color: #333;
-        }
-
-        .subtitle {
-            font-size: 16px;
-            color: #666;
-            margin-bottom: 20px;
-        }
-
-        .coupon {
-            background-color: #fff;
-            padding: 20px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            margin-bottom: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .coupon-details {
-            max-width: 70%;
-        }
-
-        .coupon-code {
-            background-color: #28a745;
-            color: #fff;
-            padding: 10px 20px;
-            border-radius: 5px;
-            font-weight: bold;
-            cursor: pointer;
-        }
-
-        .coupon-code:hover {
-            background-color: #218838;
-        }
-
-        .stats {
-            font-size: 12px;
-            color: #666;
-        }
-
-        .stats span {
-            margin-left: 10px;
-        }
-
-        .thumbs {
-            margin-left: 10px;
-            font-size: 14px;
-        }
-
-        .thumbs span {
-            cursor: pointer;
-            margin: 0 5px;
-        }
-
-        .thumbs span:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <img src="https://via.placeholder.com/40" alt="Oraimo Logo">
-        <span>Oraimo Nigeria</span>
+        <img src="logo.png" alt="Oraimo Logo">
+        <img src="Oraimo-Logo.png.png" alt="Oraimo Logo">
         <nav>
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Categories</a>
-            <a href="#">Contact Us</a>
+            <a href="#">HOME</a>
+            <a href="#">ABOUT US</a>
+            <a href="#">CATEGORIES</a>
+            <a href="#">CONTACT US</a>
         </nav>
     </header>
     <main>
         <h1>Oraimo Discount Code: Up To 57% Off + Extra 5% Code 2024 - 2028</h1>
         <p class="subtitle">This page contains the best Oraimo discount codes, curated by Oraimo Discount Network (ODN).</p>
+        <hr>
 
-        <h2>Top Oraimo Coupon Codes Till December 31, 2028</h2>
+        <h2>&nbsp;&nbsp;Top Oraimo Coupon Codes Till December 31, 2028</h2>
 
-        <div class="coupon">
-            <div class="coupon-details">
-                <strong>Exclusive Oraimo Discount Code:</strong> Save Up to 58% Off + Get an Extra Free 5% Off Voucher
-                <div class="stats">
-                    5387 Used - 5 Today
+        <div class="couponCtn">
+                <!-- <div class="coupon-details">
+                    <h3>Exclusive Oraimo Discount Code: Save Up to 58% Off + Get an Extra Free 5% Off Voucher</h3>
                 </div>
-            </div>
-            <div>
-                <div class="coupon-code" onclick="copyCode('7HJQ440D3JPK')">7HJQ440D3JPK</div>
-                <div class="thumbs">
-                    <span>👍</span><span>👎</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="coupon">
-            <div class="coupon-details">
-                <strong>Don’t Miss! Oraimo Flash Sale:</strong> Up to 59% Off + Extra 5% Off All Products
-                <div class="stats">
-                    5387 Used - 5 Today
-                </div>
-            </div>
-            <div>
-                <div class="coupon-code" onclick="copyCode('7HJQ440D3JPK')">7HJQ440D3JPK</div>
-                <div class="thumbs">
-                    <span>👍</span><span>👎</span>
-                </div>
-            </div>
+                <div class="coupon-extras">
+                    <div class="coupon-code" onclick="copyCode('7HJQ440D3JPK')">7HJQ440D3JPK</div>
+                    <img class="copy" src="copy.png" alt="">
+                    <div class="thumbs">
+                        <img src="thumbs-up.png" alt="">
+                        <img src="thumbs-down.png" alt="">
+                    </div>
+                    <p class="success">100% SUCCESS</p>
+                    <div class="stats"><img src="view.png" alt=""><p>5387 Used - 5 Today</p></div>
+                </div> -->
         </div>
     </main>
-
-    <script>
-        function copyCode(code) {
-            navigator.clipboard.writeText(code).then(() => {
-                alert(`Code ${code} copied to clipboard!`);
-            }).catch(err => {
-                alert('Failed to copy code. Please try again.');
-            });
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
