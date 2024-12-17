@@ -103,14 +103,18 @@ for (i = 0; i < couponArray.length; i++) {
                     <h3>${couponArray[i].offer}</h3>
                 </div>
                 <div class="coupon-extras">
-                    <div class="coupon-code" onclick="copyCode('${couponArray[i].code}')">${couponArray[i].code}</div>
-                    <img class="copy" src="copy.png" alt="">
-                    <div class="thumbs">
-                        <img src="thumbs-up.png" alt="">
-                        <img src="thumbs-down.png" alt="">
+                    <div class="coupon-codeCtn">
+                        <div class="coupon-code">${couponArray[i].code}</div>
+                        <img class="copy" src="copy.png" onclick="copyCode('${couponArray[i].code}')" alt="">
+                    </div>  
+                    <div class="thumbs-up-extras">
+                        <div class="thumbs">
+                            <img src="thumbs-up.png" alt="">
+                            <img src="thumbs-down.png" alt="">
+                        </div>
+                        <p class="success">100% SUCCESS</p>
+                        <div class="stats"><img src="view.png" alt=""><p>${couponArray[i].used} Used - ${couponArray[i].today} Today</p></div>
                     </div>
-                    <p class="success">100% SUCCESS</p>
-                    <div class="stats"><img src="view.png" alt=""><p>${couponArray[i].used} Used - ${couponArray[i].today} Today</p></div>
                 </div>
             </div>
                 `
