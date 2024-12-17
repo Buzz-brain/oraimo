@@ -95,25 +95,24 @@ const couponArray = [
     },
 ]
 
-for (i=0; i<couponArray.length; i++) {
+for (i = 0; i < couponArray.length; i++) {
     let couponBox = document.createElement("div");
     couponBox.innerHTML = `
             <div class="coupon">
                 <div class="coupon-details">
-                <h3>${couponArray[i].offer}</h3>
-            </div>
-            <div class="coupon-extras">
-                <div class="coupon-code" onclick="copyCode('${couponArray[i].code}')">${couponArray[i].code}</div>
-                <img class="copy" src="copy.png" alt="">
-                <div class="thumbs">
-                    <img src="thumbs-up.png" alt="">
-                    <img src="thumbs-down.png" alt="">
+                    <h3>${couponArray[i].offer}</h3>
                 </div>
-                <p class="success">100% SUCCESS</p>
-                <div class="stats"><img src="view.png" alt=""><p>${couponArray[i].used} Used - ${couponArray[i].today} Today</p></div>
+                <div class="coupon-extras">
+                    <div class="coupon-code" onclick="copyCode('${couponArray[i].code}')">${couponArray[i].code}</div>
+                    <img class="copy" src="copy.png" alt="">
+                    <div class="thumbs">
+                        <img src="thumbs-up.png" alt="">
+                        <img src="thumbs-down.png" alt="">
+                    </div>
+                    <p class="success">100% SUCCESS</p>
+                    <div class="stats"><img src="view.png" alt=""><p>${couponArray[i].used} Used - ${couponArray[i].today} Today</p></div>
+                </div>
             </div>
-            </div>
-
                 `
     couponCtn.append(couponBox)
 }
