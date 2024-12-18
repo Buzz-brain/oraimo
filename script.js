@@ -104,7 +104,9 @@ for (i = 0; i < couponArray.length; i++) {
                 </div>
                 <div class="coupon-extras">
                     <div class="coupon-codeCtn">
-                        <div class="coupon-code">${couponArray[i].code}</div>
+                        <a href="https://ng.oraimo.com?affiliate_code=gQU41bWUcc">
+                            <div class="coupon-code">${couponArray[i].code}</div>
+                        </a>
                         <img class="copy" src="copy.png" onclick="copyCode('${couponArray[i].code}')" alt="">
                     </div>  
                     <div class="thumbs-up-extras">

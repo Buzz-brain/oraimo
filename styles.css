@@ -8,7 +8,9 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #f8f9fa;
 }
-
+a {
+    text-decoration: none;
+}
 header {
     display: flex;
     align-items: center;
@@ -178,7 +180,18 @@ h3 {
     text-decoration: underline;
 }
 
+.whyOraimo, .howOraimo, .aboutOraimo {
+    line-height: 35px;
+    margin: 50px 0;
+}
 
+
+.whyOraimo li, .whyOraimo li b, .whyOraimo p, .aboutOraimo p {
+    font-size: 1.4rem;
+}
+.howOraimo li, .howOraimo li b, .howOraimo p {
+    font-size: 1.4rem;
+}
 
 
  @media (min-width:768px) {
