@@ -185,11 +185,11 @@ h3 {
 
 .whyOraimo, .howOraimo, .aboutOraimo {
     line-height: 35px;
-    margin: 50px 0;
+    margin: 40px 0;
 }
 
 
-.whyOraimo li, .whyOraimo li b, .whyOraimo p, .aboutOraimo p {
+.whyOraimo li, .whyOraimo li b, .whyOraimo p, .aboutOraimo p, .aboutOraimo b {
     font-size: 1.4rem;
 }
 .howOraimo li, .howOraimo li b, .howOraimo p {
