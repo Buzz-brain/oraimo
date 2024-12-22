@@ -289,17 +289,19 @@ h3 {
 
 .connect .socialHandle {
     display: flex;
-    gap: 7px
+    justify-content: center;
+    gap: 7px;
 }
 
 .connect .socialHandle div {
-    width: 35%;
+    width: 120px;
     height: 50px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 .whatsapp {
     background-color: #5A9B06;
@@ -469,7 +471,10 @@ footer p {
     .connect h2 {
         text-align: left;
     }
-    .connect .socialHandle div {
+    .connect .socialHandle {
+        justify-content: flex-start;
+    }
+    .connect .socialHandle a div {
         width: 200px;
         margin: initial,
     }
