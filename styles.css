@@ -295,19 +295,20 @@ h3 {
 .connect .socialHandle div {
     width: 35%;
     height: 50px;
-    background-color: #5A9B06;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* .hamburger.active span:nth-child(1) { */
-.connect .socialHandle div:nth-child(2) {
+.whatsapp {
+    background-color: #5A9B06;
+}
+.facebook {
     background-color: #0833CF;
 }
 
-.connect .socialHandle div:nth-child(3) {
+.instagram {
     background-color: #161616;
 }
 
