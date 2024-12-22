@@ -109,12 +109,13 @@ nav.active {
     transform: rotate(-45deg) translateY(-11px);
 }
 
-
+main {
+    margin-top: 50px;
+}
 main,
 footer {
     padding: 20px;
     width: 95%;
-    margin: auto;
 }
 
 h1 {
