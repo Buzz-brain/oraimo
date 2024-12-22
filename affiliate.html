@@ -5,39 +5,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oraimo Discount Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <img src="logo.png" alt="Oraimo Logo">
-        <img src="Oraimo-Logo.png.png" alt="Oraimo Logo">
-        <nav>
+        <div>
+            <img class="logo" src="logo.png" alt="Oraimo Logo">
+            <img class="logo" src="Oraimo-Logo.png.png" alt="Oraimo Logo">
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="nav-desktop">
             <a href="index.html">HOME</a>
             <a href="about.html">ABOUT US</a>
             <a href="categories.html">CATEGORIES</a>
             <a href="contact.html">CONTACT US</a>
         </nav>
     </header>
+    <nav id="nav-links">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT US</a>
+        <a href="categories.html">CATEGORIES</a>
+        <a href="contact.html">CONTACT US</a>
+    </nav>
+
     <main>
         <h1>Affiliate Terms</h1>
         <p class="subtitle">Online Discount Network
         </p>
         <hr>
         <div class="aboutOraimo">
-            <p>Online Discount Network may receive monetary compensation (commission) if you click a link on this site and buy a product/service from a brand with which we have an affiliate connection. We are now linked with Oraimo, Jumia, and New Age, however discount codes are only available for Oraimo at this time. The commission we get does not increase the cost of your purchase and helps us operate and enhance our website. However, this compensation has no bearing on the content we publish. We maintain objectivity and transparency in all reviews and suggestions posted on our website. We attempt to give the best prices and legitimate codes, however please be aware that some offers may expire fast. Online Discount Network is an affiliate partner of Oraimo, Jumia and New Age and other trusted brands. 
+            <p>Online Discount Network may receive monetary compensation (commission) if you click a link on this site
+                and buy a product/service from a brand with which we have an affiliate connection. We are now linked
+                with Oraimo, Jumia, and New Age, however discount codes are only available for Oraimo at this time. The
+                commission we get does not increase the cost of your purchase and helps us operate and enhance our
+                website. However, this compensation has no bearing on the content we publish. We maintain objectivity
+                and transparency in all reviews and suggestions posted on our website. We attempt to give the best
+                prices and legitimate codes, however please be aware that some offers may expire fast. Online Discount
+                Network is an affiliate partner of Oraimo, Jumia and New Age and other trusted brands.
                 For any inquiries, contact us.</p>
         </div>
     </main>
+    <footer>
+        <div>
+            <ul>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="termsAndCond.html">Terms & Conditions</a></li>
+                <li><a href="affiliate.html">Affiliate Disclosure</a></li>
+            </ul>
+            <p>Copyright © 2024 OraimoDiscountNetwork®.</p>
+            <p>All Rights Reserved.</p>
+        </div>
+    </footer>
+    <div class="couponCtn" style="display: none;"></div>
     <script src="script.js"></script>
 </body>
-<footer>
-    <ul>
-        <li><a href="about.html">About</a></li>
-        <li><a href="affiliate.html">Affiliate</a></li>
-        <li><a href="categories.html">Categories</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="privacy.html">Privacy</a></li>
-    </ul>
-</footer>
+
 </html>
