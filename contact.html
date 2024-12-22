@@ -5,20 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oraimo Discount Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <img src="logo.png" alt="Oraimo Logo">
-        <img src="Oraimo-Logo.png.png" alt="Oraimo Logo">
-        <nav>
+        <div>
+            <img class="logo" src="logo.png" alt="Oraimo Logo">
+            <img class="logo" src="Oraimo-Logo.png.png" alt="Oraimo Logo">
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="nav-desktop">
             <a href="index.html">HOME</a>
             <a href="about.html">ABOUT US</a>
             <a href="categories.html">CATEGORIES</a>
             <a href="contact.html">CONTACT US</a>
         </nav>
     </header>
+    <nav id="nav-links">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT US</a>
+        <a href="categories.html">CATEGORIES</a>
+        <a href="contact.html">CONTACT US</a>
+    </nav>
     <main>
         <h1>Contact Us</h1>
         <p class="subtitle">To make inquiries or proffer suggestion
@@ -31,20 +49,25 @@
             <input type="email">
             <label for="subject">Subject</label>
             <input type="email">
-            <label for="message">Message</label>
-            <textarea name="message" id="message"></textarea>
-            <button type="submit">Submit</button>
+            <label for="message">Message</label><br>
+            <textarea name="message" class="message"></textarea><br>
+            <button type="submit">SUBMIT</button>
         </form>
     </main>
+    <footer>
+        <div>
+            <ul>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="termsAndCond.html">Terms & Conditions</a></li>
+                <li><a href="affiliate.html">Affiliate Disclosure</a></li>
+            </ul>
+            <p>Copyright © 2024 OraimoDiscountNetwork®.</p>
+            <p>All Rights Reserved.</p>
+        </div>
+    </footer>
+    <div class="couponCtn" style="display: none;"></div>
     <script src="script.js"></script>
 </body>
-<footer>
-    <ul>
-        <li><a href="about.html">About</a></li>
-        <li><a href="affiliate.html">Affiliate</a></li>
-        <li><a href="categories.html">Categories</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="termsAndCond.html.html">Terms and conditions</a></li>
-    </ul>
-</footer>
 </html>

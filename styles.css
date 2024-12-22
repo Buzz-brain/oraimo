@@ -330,6 +330,30 @@ h3 {
     margin-bottom: 120px;
 }
 
+.message {
+    width: 100%;
+    height: 100px;
+}
+
+form input {
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    border: 1px solid black;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #5A9B06;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
 footer {
     background-color: #222222;
     display: flex;
