@@ -114,11 +114,21 @@ for (i = 0; i < couponArray.length; i++) {
                             <img src="thumbs-up.png" alt="">
                             <img src="thumbs-down.png" alt="">
                         </div>
-                        <p class="success">100% SUCCESS</p>
-                        <div class="stats"><img src="view.png" alt=""><p>${couponArray[i].used} Used - ${couponArray[i].today} Today</p></div>
+                        <div class="view-stats">
+                            <p class="success">100% SUCCESS</p>
+                            <div class="stats"><img src="view.png" alt=""><p>${couponArray[i].used} Used - ${couponArray[i].today} Today</p></div>
+                        </div>
                     </div>
                 </div>
             </div>
                 `
     couponCtn.append(couponBox)
 }
+
+const hamburger = document.getElementById("hamburger");
+const navLinks = document.getElementById("nav-links");
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navLinks.classList.toggle("active");
+});
