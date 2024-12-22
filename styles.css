@@ -66,6 +66,9 @@ nav {
     text-align: center;
     padding: 15px;
     transition: all 10s ease;
+    top: 60px;
+    position: sticky;
+    background-color:#fff;
 }
 
 nav a {
@@ -396,6 +399,10 @@ footer p {
     }
     .nav-desktop {
         display: flex;
+    }
+    .nav-desktop a {
+        font-size: .9rem;
+        padding-right: 20px;
     }
     .hamburger {
         display: none;
