@@ -315,6 +315,20 @@ h3 {
     width: 25px;
     height: 25px;
 }
+.categories {
+    text-align: center;
+}
+.categories button{
+    width: 180px;
+    height: 50px;
+    background-color: #5A9B06;
+    border: none;
+    outline: none;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-bottom: 120px;
+}
 
 footer {
     background-color: #222222;
