@@ -225,6 +225,18 @@ h3 {
     cursor: pointer;
 }
 
+.thumbs-button {
+    font-size: 2em;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+/* .thumbs-button.clicked img {
+    border: 2px solid green;
+} */
+
 .thumbs-up-extras {
     display: flex;
     justify-content: space-between;
@@ -485,3 +497,5 @@ footer p {
         padding: 20px;
     }
 }
+
+

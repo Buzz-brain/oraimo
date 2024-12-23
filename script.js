@@ -104,8 +104,14 @@ for (i = 0; i < couponArray.length; i++) {
                     </div>  
                     <div class="thumbs-up-extras">
                         <div class="thumbs">
-                            <img src="thumbs-up.png" alt="">
-                            <img src="thumbs-down.png" alt="">
+                      <button id="thumbs-up-${couponArray[i].id}" class="thumbs-button" 
+                            onclick="handleThumbClick(${couponArray[i].id}, 'thumbs-up')">
+                            <img src="thumb-up.png" alt="">
+                        </button>
+                        <button id="thumbs-down-${couponArray[i].id}" class="thumbs-button" 
+                            onclick="handleThumbClick(${couponArray[i].id}, 'thumbs-down')">
+                            <img src="thumb-down.png" alt="">
+                        </button>
                         </div>
                         <div class="view-stats">
                             <p class="success">100% SUCCESS</p>
